@@ -1,1 +1,1 @@
-web: gunicorn ElegantHair.wsgi --log-file -
+web: gunicorn Elegant_Hair.wsgi --log-file -
