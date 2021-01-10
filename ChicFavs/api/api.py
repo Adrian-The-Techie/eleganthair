@@ -515,7 +515,7 @@ class API:
 
             fileName = "Stock_report_as_of_"+currentDateTime+".csv"
 
-            with open("pos/static/pos/documents/"+fileName, "a+") as csvFile:
+            with open("ChicFavs/static/ChicFavs/documents/"+fileName, "a+") as csvFile:
                 finalFile = File(csvFile)
                 csvFileObject = csv.DictWriter(csvFile, fieldnames=fieldNames)
                 csvFileObject.writeheader()
