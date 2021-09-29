@@ -33,7 +33,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'chicfavselegant.herokuapp.com',
-    '192.168.100.149',
+    '127.0.0.1',
     '192.168.100.106'
 ]
 

@@ -636,4 +636,13 @@ class API:
                 "data": response
             }
 
+        if self.data['apiid'] == "testSMSAPI":
+            try:
+                responseData = sendSms(
+                    "254700221171", "THIS IS A TEST MESSAGE")
+                print(responseData)
+
+            except Exception as e:
+                responseData = "{}".format(e)
+
         return responseData
